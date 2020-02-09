@@ -1,0 +1,42 @@
+// COLORS
+$color-primary: #eb2f64;
+$color-primary-light: #ff5781;
+$color-primary-dark: #ba265d;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ce6228;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-background: #43192c;
+$color-background-2: #512B3C;
+
+// RESUME COLORS
+$color-resume-1: #77bd52; //#2c4319
+$color-resume-2: #b35b82; //#c96f98
+$color-resume-3: #e7bd59; //#d8a52f
+$color-resume-4: #b49344;
+
+$colors: $color-primary-dark, $color-secondary-dark, $color-tertiary-dark;
+$colors-active: $color-primary-light, $color-secondary-light, $color-tertiary-light;
+
+$color-white: #fff;
+$color-black: #000;
+$color-gray-light: #ddd;
+$color-gray-dark: #787878;
+
+$color-1: #ee9eba;
+$color-2: #00c07b;
+$color-3: #aa7d00;
+
+// FONT SIZES
+$default-font-size: 1.6rem;
+$bigger-font-size: 2.4rem;
+
+// BREAKPOINTS
+$bp-largest: 75em; // 1200px / 16px = 75em
+$bp-large: 62.5em; // 1000px / 16px = 62.5em
+$bp-medium: 50em; // 800px / 16px = 50em
+$bp-small: 37.5em; // 600px / 16px = 37.5em
+$bp-xsmall: 28.125em; // 450px / 16px = 28.125em

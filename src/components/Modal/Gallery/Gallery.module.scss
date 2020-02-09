@@ -1,0 +1,29 @@
+@import "../../variables";
+
+.Gallery {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__Showcase {
+        flex: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    &__Container {
+        flex: 30%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+
+        figure {
+            cursor: pointer;
+        }
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        display: none;
+    }
+}

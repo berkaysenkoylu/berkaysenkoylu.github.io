@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+.Figure {
+    img {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.NotSelected {
+    filter: blur(3px);
+}
+
+.Selected {
+    border: 3px solid $color-primary-dark;
+}

@@ -1,0 +1,110 @@
+@import "../variables";
+
+.Resume {
+    max-width: 80rem;
+    flex: 1;
+    font-size: $bigger-font-size;
+    color: $color-resume-2;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding-bottom: 10rem;
+    }
+
+    h4 {
+        color: $color-resume-4;
+    }
+
+    ul {
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+        padding-left: 2rem;
+    }
+
+    li {
+        list-style: none;
+
+        &::before {
+            content: "·";
+            font-size: 6rem;
+            vertical-align:middle;
+            line-height: 2rem;
+            margin-right: 1rem;
+        }
+    }
+
+    * > header > h2 {
+        color: $color-resume-3;
+        margin-bottom: 2rem;
+    }
+
+    section {
+        margin-top: 4rem;
+
+        &:not(:last-child) {
+            margin-bottom: 6rem;
+        }
+    }
+
+    &__Header {
+        color: $color-resume-1;
+    }
+
+    &__Intro {
+        color: $color-resume-2;
+    }
+    
+    &__Skills {
+
+        &__Grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+            grid-gap: 2rem;
+
+        }
+    }
+
+    &__Work {
+
+        &__Experience {
+            margin-top: 3rem;
+
+            h4 {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &__Education {
+        
+        &__School {
+            &:not(:last-child) {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    &__Projects {
+
+        &__Project {
+            &:not(:last-child) {
+                margin-bottom: 1.5rem;
+            }
+
+            span {
+                position: relative;
+                margin-right: 1rem;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background-color: $color-resume-2;
+                    height: 2px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

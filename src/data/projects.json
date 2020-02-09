@@ -1,0 +1,128 @@
+{
+    "elearning": {
+        "id": "1",
+        "title": "E-learning platform",
+        "description": "An e-learning platform powered by moodle.",
+        "technology": ["HTML5", "CSS3", "PHP", "MySQL", "MOODLE"],
+        "image": "elearning-1.png",
+        "url": "https://www.de-institute.com",
+        "src-url": "",
+        "images": [
+            { "name": "elearning.png", "alt": "elearning-1", "id": 0 },
+            { "name": "elearning-2.png", "alt": "elearning-2", "id": 1 },
+            { "name": "elearning-3.png", "alt": "elearning-3", "id": 2 }
+        ]
+    },
+    "ecommerce": {
+        "id": "2",
+        "title": "E-commerce App",
+        "description": "An e-commerce application where a store owner can create/edit/delete products and sell them.",
+        "technology": ["NodeJS", "MongoDB", "ReactJS", "Redux", "Iyzi-Pay", "Google Cloud"],
+        "image": "ecommerce.png",
+        "url": "https://berkaysenkoylu.github.io/react-ecommerce-app",
+        "src-url": "https://github.com/berkaysenkoylu/react-ecommerce-app",
+        "images": [
+            { "name": "ecommerce-1.png", "alt": "ecommerce-1", "id": 0 },
+            { "name": "ecommerce-2.png", "alt": "ecommerce-2", "id": 1 },
+            { "name": "ecommerce-3.png", "alt": "ecommerce-3", "id": 2 }
+        ]
+    },
+    "cartoonizer": {
+        "id": "3",
+        "title": "Cartoonizer App",
+        "description": "A cartoonizer application where a user can transform uploaded images into cartoony style.",
+        "technology": ["Python Flask", "ReactJS", "SASS"],
+        "image": "cartoonizer.png",
+        "url": "https://berkaysenkoylu.github.io/cartoonizer",
+        "src-url": "https://github.com/berkaysenkoylu/cartoonizer",
+        "images": [
+            { "name": "cartoonizer.png", "alt": "cartoonizer-1", "id": 0 },
+            { "name": "cartoonizer-1.png", "alt": "cartoonizer-2", "id": 1 },
+            { "name": "cartoonizer-2.png", "alt": "cartoonizer-3", "id": 2 }
+        ]
+    },
+    "fitness": {
+        "id": "4",
+        "title": "Fitness App",
+        "description": "A fitness tracking application where users can keep track of their exercise routines and their body indices.",
+        "technology": ["NodeJS", "MongoDB", "ReactJS", "Redux"],
+        "image": "fitness.png",
+        "url": "https://berkaysenkoylu.github.io/fitness-app",
+        "src-url": "https://github.com/berkaysenkoylu/fitness-app",
+        "images": [
+            { "name": "fitness-2.png", "alt": "fitness-2", "id": 0 },
+            { "name": "fitness-3.png", "alt": "fitness-3", "id": 1 },
+            { "name": "fitness-4.png", "alt": "fitness-4", "id": 2 }
+        ]
+    },
+    "quiz": {
+        "id": "5",
+        "title": "Quiz App",
+        "description": "A quiz app where users can create their own multiple choice quizzes and compete with each other.",
+        "technology": ["NodeJS", "MongoDB", "Angular"],
+        "image": "quiz.png",
+        "url": "https://berkaysenkoylu.github.io/queasy",
+        "src-url": "https://github.com/berkaysenkoylu/queasy",
+        "images": [
+            { "name": "quiz-1.png", "alt": "quiz-1", "id": 0 },
+            { "name": "quiz-2.png", "alt": "quiz-2", "id": 1 },
+            { "name": "quiz-3.png", "alt": "quiz-3", "id": 2 }
+        ]
+    },
+    "restaurant": {
+        "id": "6",
+        "title": "Restaurant LP",
+        "description": "A landing (main) page for a restaurant.",
+        "technology": ["HTML5", "CSS3", "SASS", "Javascript"],
+        "image": "restaurant.png",
+        "url": "https://berkaysenkoylu.github.io/restaurant_landingpage/",
+        "src-url": "https://github.com/berkaysenkoylu/restaurant_landingpage",
+        "images": [
+            { "name": "restaurant-1.png", "alt": "restaurant-1", "id": 0 },
+            { "name": "restaurant-2.png", "alt": "restaurant-2", "id": 1 },
+            { "name": "restaurant-3.png", "alt": "restaurant-3", "id": 2 }
+        ]
+    },
+    "bookclub": {
+        "id": "7",
+        "title": "Bookclub LP",
+        "description": "A landing (main) page for a bookclub.",
+        "technology": ["HTML5", "CSS3", "SASS", "Javascript"],
+        "image": "bookclub.png",
+        "url": "https://berkaysenkoylu.github.io/bookclub_landingpage/",
+        "src-url": "https://github.com/berkaysenkoylu/bookclub_landingpage",
+        "images": [
+            { "name": "bookclub-1.png", "alt": "bookclub-1", "id": 0 },
+            { "name": "bookclub-2.png", "alt": "bookclub-2", "id": 1 },
+            { "name": "bookclub-3.png", "alt": "bookclub-3", "id": 2 }
+        ]
+    },
+    "rtsgame": {
+        "id": "8",
+        "title": "RTS Game",
+        "description": "An rts game where you defend against zombies by collecting resources and building defense structures.",
+        "technology": ["Unity3D", "Blender"],
+        "image": "rtsgame.png",
+        "url": "https://berkaysenkoylu.github.io/safehaven/",
+        "src-url": "https://github.com/berkaysenkoylu/RTSmeetsTowerDefense",
+        "images": [
+            { "name": "rts-1.png", "alt": "rtsgame-1", "id": 0 },
+            { "name": "rts-2.png", "alt": "rtsgame-2", "id": 1 },
+            { "name": "rts-3.png", "alt": "rtsgame-3", "id": 2 }
+        ]
+    },
+    "ballsgame": {
+        "id": "9",
+        "title": "2D Ball Game",
+        "description": "A simple 2D game where the player gives the ball momentum to certain direction, collide with other balls (sequentially to build a combo) and gain height to get away from nullification zone.",
+        "technology": ["Unity3D", "Gimp"],
+        "image": "ballgame.png",
+        "url": "https://berkaysenkoylu.github.io/trajector-build/",
+        "src-url": "https://github.com/berkaysenkoylu/trajector",
+        "images": [
+            { "name": "ball-1.png", "alt": "ballsgame-1", "id": 0 },
+            { "name": "ball-2.png", "alt": "ballsgame-2", "id": 1 },
+            { "name": "ball-3.png", "alt": "ballsgame-3", "id": 2 }
+        ]
+    }
+}

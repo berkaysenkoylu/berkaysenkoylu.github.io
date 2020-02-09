@@ -1,0 +1,60 @@
+@import "../../variables";
+
+.Link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $bigger-font-size;
+
+    @for $i from 1 through 3 {
+        &__#{$i} {
+            &,
+            &:link,
+            &:visited {
+                color: nth($colors, $i);
+            }
+        }
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-bottom: 0;
+            margin-right: 2.5rem;
+        }
+    }
+
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+    }
+    
+    &__Icon {
+        width: 3rem;
+        height: 3rem;
+
+        @for $i from 1 through 3 {
+            &#{$i} {
+                fill: nth($colors, $i);
+            }
+        }
+    }
+
+    @for $i from 1 through 3 {
+        &__Active#{$i} {
+            &,
+            &:link,
+            &:visited {
+                color: nth($colors-active, $i);
+            }
+
+            svg {
+                fill: nth($colors-active, $i);
+            }
+        }
+    }
+}
+

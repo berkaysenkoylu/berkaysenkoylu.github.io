@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700&display=swap');
+@import "./variables";
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-family: 'Pragati Narrow', sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 62.5%; // <= 10px / 16px = 62.5%
+
+	@media only screen and (max-width: $bp-large) {
+		font-size: 50%; // <= 8px / 16px = 50%
+	}
+}
+
+body {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: $color-background;
+
+	div#___gatsby {
+		min-height: 100vh;
+	}
+}
+
+main {
+	padding: 14rem;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@media only screen and (max-width: $bp-medium) {
+		padding: 2rem;
+	}
+}
